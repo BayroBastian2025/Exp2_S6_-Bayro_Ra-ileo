@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package comiciinventario;
 
 import Modelo.Comic;
@@ -9,10 +6,6 @@ import Modelo.Usuario;
 import java.util.*;
 import java.io.*;
 
-/**
- *
- * @author dell
- */
 public class ComicInventario {
 
   
@@ -74,9 +67,9 @@ public class ComicInventario {
         
         try{
             System.out.println("");
-        System.out.println("Ingrese su nombre; ");
+        System.out.println("Ingrese su nombre: ");
         String nom=sc.nextLine();
-        System.out.println("Ingrese su nombre; ");
+        System.out.println("Ingrese su rut:  ");
         String rut=sc.nextLine();
         sc.close();
         
